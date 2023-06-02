@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.3)), url(../../Desktop/landingpage5/ben-kolde-bs2Ba7t69mM-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    padding: 0px 80px;
+    width: 100%;
+}
+
+.navbar {
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: -80px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #05183b;
+
+}
+
+.navbar h1 {
+    color: #65f65e;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: -50px;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 16px;
+    color: #65f65e;
+    border-color: black;
+    lighting-color: aqua;
+    text-transform: inherit;
+    margin-top: 4px;
+
+
+}
+
+.content a {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 19px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    background-color: #5d88d5;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content a:hover {
+    background-color: #05183b;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    min-height: 5vh;
+
+}
